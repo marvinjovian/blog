@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Semua Tulisan — Rumah Kata</title>
+<meta name="description" content="Jelajahi semua tulisan di Rumah Kata: puisi, cerpen, esai, opini, catatan, surat, dan renungan. Cari dan saring berdasarkan kategori." />
+<link rel="canonical" href="https://rumahkata.example.com/posts.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Semua Tulisan — Rumah Kata" />
+<meta property="og:description" content="Jelajahi semua tulisan: puisi, cerpen, esai, opini, catatan, surat, dan renungan." />
+<meta property="og:url" content="https://rumahkata.example.com/posts.html" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Semua Tulisan — Rumah Kata" />
+<meta name="twitter:description" content="Jelajahi semua tulisan: puisi, cerpen, esai, opini, catatan, surat, dan renungan." />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏡</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<a class="skip-link" href="#main-content">Langsung ke konten utama</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">Rumah <em>Kata</em></span>
+    </a>
+
+    <nav class="main-nav" data-main-nav aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="posts.html" aria-current="page">Semua Tulisan</a>
+      <a href="about.html">Tentang Saya</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle type="button" aria-label="Ganti mode terang/gelap">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" data-nav-toggle type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="container">
+    <div class="page-header">
+      <h1>Semua Tulisan</h1>
+      <p>Kumpulan lengkap karya — cari, saring, dan urutkan sesuai yang ingin kamu baca.</p>
+    </div>
+
+    <div class="controls-bar">
+      <label class="search-box">
+        <span class="visually-hidden">Cari tulisan</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" data-post-search placeholder="Cari judul, isi, atau kategori..." aria-label="Cari tulisan" />
+      </label>
+
+      <label>
+        <span class="visually-hidden">Urutkan tulisan</span>
+        <select class="sort-select" data-sort-select aria-label="Urutkan tulisan">
+          <option value="terbaru">Terbaru</option>
+          <option value="terlama">Terlama</option>
+          <option value="judul">Judul A-Z</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="filter-row" data-filter-row role="group" aria-label="Saring berdasarkan kategori">
+      <!-- Diisi oleh posts.js -->
+    </div>
+
+    <p class="visually-hidden" data-result-count aria-live="polite"></p>
+
+    <div class="post-grid" data-post-grid aria-live="polite">
+      <!-- Diisi oleh posts.js -->
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-note">&copy; 2026 Rumah Kata. Semua tulisan adalah milik penulis.</p>
+    <div class="footer-links">
+      <a href="about.html">Tentang</a>
+      <a href="posts.html">Arsip Tulisan</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/darkmode.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+<script src="js/posts.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rumah Kata — Tempat kata-kata menemukan rumah</title>
+<meta name="description" content="Perpustakaan digital pribadi berisi puisi, cerpen, esai, opini, dan catatan lepas. Tempat yang tenang untuk membaca dan menyimpan tulisan." />
+<link rel="canonical" href="https://rumahkata.example.com/index.html" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Rumah Kata — Tempat kata-kata menemukan rumah" />
+<meta property="og:description" content="Perpustakaan digital pribadi berisi puisi, cerpen, esai, opini, dan catatan lepas." />
+<meta property="og:url" content="https://rumahkata.example.com/index.html" />
+<meta property="og:image" content="images/og-cover.jpg" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Rumah Kata — Tempat kata-kata menemukan rumah" />
+<meta name="twitter:description" content="Perpustakaan digital pribadi berisi puisi, cerpen, esai, opini, dan catatan lepas." />
+<meta name="twitter:image" content="images/og-cover.jpg" />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏡</text></svg>" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+<a class="skip-link" href="#main-content">Langsung ke konten utama</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">Rumah <em>Kata</em></span>
+    </a>
+
+    <nav class="main-nav" data-main-nav aria-label="Navigasi utama">
+      <a href="index.html" aria-current="page">Beranda</a>
+      <a href="posts.html">Semua Tulisan</a>
+      <a href="about.html">Tentang Saya</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" data-theme-toggle type="button" aria-label="Ganti mode terang/gelap">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" data-nav-toggle type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">Perpustakaan digital pribadi</span>
+      <h1>Tempat kata-kata<br />menemukan <span class="accent-word">rumah</span>.</h1>
+      <p class="hero-tagline">Kumpulan puisi, cerpen, esai, dan catatan lepas — ditulis pelan-pelan, dibaca tanpa terburu-buru.</p>
+      <div class="hero-scroll-cue" aria-hidden="true">
+        <span>Jelajahi</span>
+        <span class="line"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="section-heading">
+      <h2>Tulisan Terbaru</h2>
+      <a class="view-all" href="posts.html">Lihat semua &rarr;</a>
+    </div>
+    <div class="post-grid" data-latest-posts aria-live="polite">
+      <!-- Diisi oleh app.js -->
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer-note">&copy; 2026 Rumah Kata. Semua tulisan adalah milik penulis.</p>
+    <div class="footer-links">
+      <a href="about.html">Tentang</a>
+      <a href="posts.html">Arsip Tulisan</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/darkmode.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
